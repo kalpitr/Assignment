@@ -83,8 +83,7 @@
               </div>
             </div>
             <div>
-          <b-btn @click="modalShow = false">Cancel</b-btn>
-          <b-btn variant="outline-primary" @click="addUser">Create</b-btn>
+          
         </div>
           </div>
         </div>
