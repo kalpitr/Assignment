@@ -521,7 +521,7 @@ export default {
       showModal: false,
     };
   },
- 
+
   methods: {
     infiniteHandler($state) {
       if (this.studentData.length > 40) {
@@ -617,8 +617,6 @@ export default {
         (this.email = email),
         (this.phoneNo = phoneNo);
       this.address = address;
-      
-
     },
   },
 };

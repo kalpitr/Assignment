@@ -18,14 +18,14 @@ import VueGoogleAutocomplete from "vue-google-autocomplete";
 
 export default {
   components: { VueGoogleAutocomplete },
-props: ['sendAddress'],
+  props: ["sendAddress"],
   data: function() {
     return {
       address: "",
     };
   },
-  created(){
-      this.address = this.sendAddress
+  created() {
+    this.address = this.sendAddress;
   },
 
   methods: {

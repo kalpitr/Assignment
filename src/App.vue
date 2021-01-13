@@ -7,11 +7,10 @@
 <script>
 export default {
   name: "App",
-  components: {
+  components: {},
+  created() {
+    this.$router.push("/students");
   },
-  created(){
-    this.$router.push("/students")
-  }
 };
 </script>
 
