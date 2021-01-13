@@ -1,9 +1,14 @@
-import Students from './components/students.vue';
-import HelloWorld from './components/HelloWorld.vue';
+import AddStudent from './components/AddStudent.vue';
+import StudentDetails from './components/StudentDetails.vue';
+import Address from './components/Address.vue';
+
 
 const routes = [
-    { path: '/students', component: Students },
-    { path: '/register', component: HelloWorld },
+    { path: '/students', component: AddStudent },
+    { path: '/pay-now', component: StudentDetails },
+    { path: '/address', component: Address },
+
+
 ];
 
 export default routes;

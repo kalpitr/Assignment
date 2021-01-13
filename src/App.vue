@@ -1,26 +1,18 @@
 <template>
   <div id="app">
-     <!-- <nav>
-        <router-link to='/'>Home</router-link>
-        <router-link to='/register'>Register</router-link>
-        <router-link to='/login'>Login</router-link>
-    </nav> -->
-    <router-view />
-    <!-- <Students /> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-// import Students from './components/students.vue'
-
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    // HelloWorld,
-    // Students
+  },
+  created(){
+    this.$router.push("/students")
   }
-}
+};
 </script>
 
 <style>
